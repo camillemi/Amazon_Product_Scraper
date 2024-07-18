@@ -1,0 +1,29 @@
+#!/bin/bash
+set -e
+
+# Définir le répertoire d'installation
+INSTALL_DIR="/usr/local/my_scraper_project"
+
+# Créer le répertoire d'installation
+mkdir -p $INSTALL_DIR
+
+# Copier les fichiers du paquet vers le répertoire d'installation
+cp -r /path/to/package/* $INSTALL_DIR
+
+# Créer un environnement virtuel Python
+python3 -m venv $INSTALL_DIR/venv
+
+# Activer l'environnement virtuel
+source $INSTALL_DIR/venv/bin/activate
+
+# Installer les dépendances
+pip install -r $INSTALL_DIR/requirements.txt
+
+# Désactiver l'environnement virtuel
+deactivate
+
+# Créer un lien symbolique pour le script GUI
+ln -s $INSTALL_DIR/gui.py /usr/local/bin/amazon-scraper-gui
+
+echo "Installation terminée avec succès."
+

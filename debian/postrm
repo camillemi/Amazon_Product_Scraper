@@ -1,0 +1,27 @@
+#!/bin/bash
+set -e
+
+# Définir le répertoire d'installation
+INSTALL_DIR="/usr/local/my_scraper_project"
+
+# Actions à effectuer lors de la suppression complète du paquet
+if [ "$1" = "purge" ]; then
+    echo "Purge complète du paquet. Suppression du répertoire d'installation."
+    rm -rf $INSTALL_DIR
+fi
+
+# Actions à effectuer lors de la suppression du paquet
+if [ "$1" = "remove" ]; then
+    echo "Suppression du paquet. Nettoyage des fichiers."
+    # Supprimer le lien symbolique
+    rm -f /usr/local/bin/amazon-scraper-gui
+
+    # Supprimer l'environnement virtuel
+    rm -rf $INSTALL_DIR/venv
+
+    # Supprimer les fichiers de l'application
+    rm -rf $INSTALL_DIR
+fi
+
+echo "Nettoyage terminé."
+
