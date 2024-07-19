@@ -6,7 +6,7 @@ setup(
     description='Amazon Product Scraper',
     author='LIN Mi',
     author_email='linmi2018@gmail.com',
-    url='https://github.com/camillemi/Amazo_Product_Scraper',
+    url='https://github.com/camillemi/Amazon_Product_Scraper',
     py_modules=['rechercher_resultats', 'gui'],
     include_package_data=True,
     install_requires=[
