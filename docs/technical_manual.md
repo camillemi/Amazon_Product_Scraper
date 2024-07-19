@@ -8,7 +8,6 @@ Le projet est organisé comme suit :
 my_scraper_project/
 
 ├── src/
-
 │   ├── rechercher_resultats.py
 
 │   ├── rechercher_resultats.yml
