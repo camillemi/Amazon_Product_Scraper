@@ -32,8 +32,6 @@ Amazon Product Scraper est un outil convivial qui vous permet de scraper les inf
 
 3. Cliquez sur le bouton "Scrape".
 
-## Contribuer
-Pour contribuer, veuillez suivre les directives de contribution décrites dans CONTRIBUTING.md.
 
 ## Licence
 Ce projet est sous licence GNU GPL v3.
