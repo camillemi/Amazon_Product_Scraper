@@ -36,16 +36,6 @@ Cliquer sur le bouton "Scraper".
 
 Voir le résultat : Une fois le scraping terminé, les résultats seront sauvegardés dans resultats_des_sorties.csv.
 
-## Exécution en ligne de commande
-
-Exécuter le script avec l'URL du produit Amazon en argument :
-
-python3 src/rechercher_resultats.py <amazon_product_url>
-
-Voir le résultat : Les résultats seront sauvegardés dans resultats_des_sorties.csv.
-
-Pour tester le scraper, vous pouvez utiliser les exemples d'URL fournis dans le fichier `src/Exemples_urls.txt`.
-
 ## Dépannage
 
 Assurez-vous d'avoir une connexion Internet stable.
