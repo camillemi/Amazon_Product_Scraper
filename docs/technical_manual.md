@@ -95,7 +95,6 @@ Ce script est utilisé pour créer un paquet installable de l'application.
 
 
 12. MANIFEST.in
-
 Ce fichier inclut des fichiers supplémentaires dans le paquet.
 
 13. Licence
