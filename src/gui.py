@@ -1,3 +1,13 @@
+"""
+Nom: gui.py
+Rôle: Ce script fournit l'interface graphique de l'application de scraping Amazon. Il permet aux utilisateurs de saisir l'URL du produit Amazon, 
+d'initier le processus de scraping via un bouton, et d'afficher le résultat ou les erreurs éventuelles. L'interface inclut également un bouton pour 
+ouvrir le fichier de sortie contenant les données extraites.
+Auteur: LIN Mi
+Licence: Réalisé pour le projet de scraping Amazon. 
+Usage: make run_gui
+"""
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import subprocess
