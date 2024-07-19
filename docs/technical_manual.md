@@ -5,8 +5,6 @@ Ce manuel technique fournit des détails approfondis sur la mise en œuvre, la c
 ## Structure du Projet
 Le projet est organisé comme suit :
 
-arduino
-Copier le code
 my_scraper_project/
 ├── src/
 │   ├── rechercher_resultats.py
