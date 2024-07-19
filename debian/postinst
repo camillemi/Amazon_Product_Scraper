@@ -2,7 +2,7 @@
 set -e
 
 # Définir le répertoire d'installation
-INSTALL_DIR="/usr/local/my_scraper_project"
+INSTALL_DIR="/usr/local/Amazon_Product_Scraper/"
 
 # Créer le répertoire d'installation
 mkdir -p $INSTALL_DIR
