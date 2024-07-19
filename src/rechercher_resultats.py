@@ -3,7 +3,6 @@ Nom: rechercher_resultats.py
 Rôle: Extrait des données de produits à partir des pages de résultats de recherche d'Amazon et les enregistre dans un fichier CSV.
 Auteur: LIN Mi
 Licence: Réalisé pour le projet de scraping Amazon
-Usage: python3 rechercher_resultats.py <URL Amazon>
 """
 from selectorlib import Extractor
 import requests
