@@ -6,8 +6,11 @@ Ce manuel technique fournit des détails approfondis sur la mise en œuvre, la c
 Le projet est organisé comme suit :
 
 my_scraper_project/
+
 ├── src/
+
 │   ├── rechercher_resultats.py
+
 │   ├── rechercher_resultats.yml
 │   ├── gui.py
 │   ├── requirements.txt
