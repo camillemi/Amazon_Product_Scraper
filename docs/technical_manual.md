@@ -5,7 +5,7 @@ Ce manuel technique fournit des détails approfondis sur la mise en œuvre, la c
 ## Structure du Projet
 Le projet est organisé comme suit :
 
-my_scraper_project/
+Amazon_Product_Scraper/
 
 ├── src/
 
@@ -133,7 +133,7 @@ Créer un Paquet Debian
 
 Naviguer vers le répertoire du projet :
 
-cd my_scraper_project
+cd Amazon_Product_Scraper
 
 Construire le paquet Debian :
 
