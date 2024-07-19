@@ -12,19 +12,35 @@ my_scraper_project/
 │   ├── rechercher_resultats.py
 
 │   ├── rechercher_resultats.yml
+
 │   ├── gui.py
+
 │   ├── requirements.txt
+
 │   └── Exemples_urls.txt
+
 ├── docs/
+
 │   ├── user_guide.md
+
 │   └── technical_manual.md
+
 ├── debian/
+
 │   ├── control
+
 │   ├── postinst
+
 │   └── postrm
+
 ├── README.md
+
 ├── setup.py
+
 ├── MANIFEST.in
+
+├── LICENSE
+
 └── Makefile
 
 ## Composants
@@ -81,6 +97,9 @@ Ce script est utilisé pour créer un paquet installable de l'application.
 12. MANIFEST.in
 
 Ce fichier inclut des fichiers supplémentaires dans le paquet.
+
+13. Licence
+Ce projet est sous licence GNU GPL v3.
 
 ## Configuration
 
