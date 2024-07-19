@@ -2,7 +2,7 @@
 set -e
 
 # Définir le répertoire d'installation
-INSTALL_DIR="/usr/local/my_scraper_project"
+INSTALL_DIR="/usr/local/Amazon_Product_Scraper/"
 
 # Actions à effectuer lors de la suppression complète du paquet
 if [ "$1" = "purge" ]; then
