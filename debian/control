@@ -1,4 +1,4 @@
-Package: amazon-product-scraper
+Package: amazon_product_scraper
 Version: 1.0
 Section: web
 Priority: optional
