@@ -39,7 +39,7 @@ Amazon_Product_Scraper/
 
 ├── MANIFEST.in
 
-├── LICENSE
+├── LICENCE
 
 └── Makefile
 
