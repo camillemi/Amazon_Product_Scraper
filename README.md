@@ -11,8 +11,8 @@ Amazon Product Scraper est un outil convivial qui vous permet de scraper les inf
 ### Étapes
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/camillemi/Amazo_Product_Scraper.git
-    cd Amazo_Product_Scraper
+    git clone https://github.com/camillemi/Amazon_Product_Scraper.git
+    cd Amazon_Product_Scraper
     ```
 
 2. Installez les dépendances :
